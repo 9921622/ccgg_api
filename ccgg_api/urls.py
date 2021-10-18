@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.db import router
 from django.urls import include, path
 from rest_framework import routers
-from ccgg_api.api import views
+#from ccgg_api.api import views
 
 router = router.DefaultRouter()
 router.register(r'users' , views.UserViewSet)
