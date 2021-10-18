@@ -1,1 +1,1 @@
-web: gunicorn ccgg_api.wsgi --log-file -
+web: gunicorn myproject.wsgi
