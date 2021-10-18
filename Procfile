@@ -1,1 +1,3 @@
-web: gunicorn myproject.wsgi
+web: gunicorn ccgg_site.wsgi
+release: python manage.py makemigrations -noinput
+release: python manage.py migrate --noinput
