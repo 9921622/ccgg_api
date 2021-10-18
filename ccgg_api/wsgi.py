@@ -1,5 +1,5 @@
 """
-WSGI config for gg_api project.
+WSGI config for ccgg_api project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 

@@ -1,1 +1,1 @@
-web: gunicorn rapidapipractice.wsgi --log-file -
+web: gunicorn ccgg_api.wsgi --log-file -
