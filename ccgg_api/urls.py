@@ -5,6 +5,7 @@ from . import views
 
 
 router = routers.DefaultRouter()
+router.register(r"pawns", views.PawnViewSet)
 router.register(r"turtles", views.TurtleViewSet)
 
 # Wire up our API using automatic URL routing.
