@@ -5,4 +5,4 @@ from .models import Turtle
 class TurtleSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Turtle
-        fields = ("id", "command")
+        fields = ("id", "name", "command", "from_turtle")
