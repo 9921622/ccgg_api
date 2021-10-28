@@ -6,7 +6,7 @@ from .models import Turtle
 class PawnSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Pawn
-        fields = ("pk", "name", "pawn", "date", "data")
+        fields = ("pk", "indentifier", "date", "data")
 
 class TurtleSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
