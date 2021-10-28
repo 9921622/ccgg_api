@@ -8,7 +8,7 @@ class Pawn(models.Model):
     data = models.CharField(max_length=300, default="")
 
     def __str__(self):
-        return self.indentifier
+        return self.identifier
 
 class Turtle(models.Model):
     name = models.CharField(max_length=60)
